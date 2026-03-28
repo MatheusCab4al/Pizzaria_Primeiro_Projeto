@@ -7,17 +7,21 @@
 }
 
 body {
-    width: 100vw; /* Garante que o body ocupe 100% da largura da janela visual */
-    overflow-x: hidden; /* Remove permanentemente a rolagem horizontal */
+    width: 100vw;
+    /* Garante que o body ocupe 100% da largura da janela visual */
+    overflow-x: hidden;
+    /* Remove permanentemente a rolagem horizontal */
 }
 
 /* ================= HEADER e NAVEGAÇÃO ================= */
 header ul {
     background-color: #333;
-    display: flex; /* Coloca os itens da lista lado a lado */
+    display: flex;
+    /* Coloca os itens da lista lado a lado */
     padding: 15px;
     margin: 0;
-    gap: 30px; /* Adiciona um espaço entre os links */
+    gap: 30px;
+    /* Adiciona um espaço entre os links */
     list-style: none;
     justify-content: center;
 }
@@ -29,7 +33,7 @@ header ul li a {
 
 /* ================= HERO SECTION ================= */
 .hero {
-    background-image: url("pexels-narda-yescas-1566837.jpg");
+    background-image: url("img/pexels-narda-yescas-1566837.jpg");
     min-height: 60vh;
     padding: 162px 0;
     text-align: center;
@@ -57,7 +61,8 @@ header ul li a {
 }
 
 .hero button:hover {
-    background-color: rgb(200, 130, 0); /* Uma cor um pouco mais escura */
+    background-color: rgb(200, 130, 0);
+    /* Uma cor um pouco mais escura */
 }
 
 /* ================= CARDÁPIO ================= */
@@ -70,15 +75,19 @@ header ul li a {
 
 .container-cardapio {
     display: flex;
-    flex-wrap: wrap; /* Permite que as pizzas quebrem para a linha de baixo se não couberem na tela */
-    justify-content: center; /* Centraliza as pizzas na tela */
+    flex-wrap: wrap;
+    /* Permite que as pizzas quebrem para a linha de baixo se não couberem na tela */
+    justify-content: center;
+    /* Centraliza as pizzas na tela */
     gap: 15px;
     padding: 20px;
 }
 
 .item-cardapio {
-    width: 30%; /* Diz que cada caixa ocupa quase um terço do espaço */
-    background-color: #f4f4f4; /* Uma corzinha de fundo (opcional) */
+    width: 30%;
+    /* Diz que cada caixa ocupa quase um terço do espaço */
+    background-color: #f4f4f4;
+    /* Uma corzinha de fundo (opcional) */
     padding: 5px;
     border-radius: 8px;
 }
@@ -90,12 +99,13 @@ header ul li a {
 }
 
 .item-cardapio:hover {
-    background-color: rgb(200, 130, 0); /* Uma cor um pouco mais escura */
+    background-color: rgb(200, 130, 0);
+    /* Uma cor um pouco mais escura */
 }
 
 /* ================= SOBRE NÓS ================= */
 .sobre-nos {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pexels-eneida-nieves-905847.jpg");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/pexels-eneida-nieves-905847.jpg");
     width: 100%;
     height: 300px;
     padding: 20px;
@@ -121,6 +131,7 @@ header ul li a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     gap: 10px;
     padding: 10px;
 }
@@ -139,8 +150,8 @@ header ul li a {
     font-size: 1.2rem;
     color: black;
     cursor: pointer;
-    margin-left: 50%;
-    margin-top: 20px;
+    display: block;
+    margin: 20px auto 0;
 }
 
 /* ================= FOOTER ================= */
