@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     width: 100vw;
     /* Garante que o body ocupe 100% da largura da janela visual */
@@ -28,6 +32,10 @@ header ul {
 
 header ul li a {
     color: white;
+    text-decoration: none;
+}
+
+main a {
     text-decoration: none;
 }
 

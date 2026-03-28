@@ -12,24 +12,24 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Cardápio</a></li>
-                <li><a href="#">Sobre Nós</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sessao-cardapio">Cardápio</a></li>
+                <li><a href="#sessao-sobre">Sobre Nós</a></li>
+                <li><a href="#sessao-contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <!-- Seção Hero -->
-        <section class="hero">
+        <section class="hero" id="home">
             <h1>Bem-vindo ao Restaurante Sabor Divino</h1>
             <p>Onde cada prato conta uma história de sabor e tradição.</p>
-            <button>Ver Cardapio</button>
+            <a href="#sessao-cardapio"><button>Ver Cardapio</button></a>
         </section>
 
         <!-- Seção Cardápio -->
-        <section class="cardapio">
+        <section class="cardapio" id="sessao-cardapio">
             <h2>Cardápio</h2>
             <div class="container-cardapio">
                 <div class="item-cardapio">
@@ -96,7 +96,7 @@
         </section>
 
         <!-- Seção Sobre Nós -->
-        <section class="sobre-nos">
+        <section class="sobre-nos" id="sessao-sobre">
             <h2>Sobre Nós</h2>
             <p>
                 Somos uma pizzaria tradicional com mais de 20 anos de experiência no mercado. Nossas pizzas são feitas
@@ -105,32 +105,34 @@
         </section>
 
         <!-- Seção Contatos -->
-        <section class="contato">
+        <section class="contato" id="sessao-contato">
             <h2>Contato</h2>
             <p>Entre em contato conosco através dos seguintes canais:</p>
+            <address>
 
-            <div class="caixas-contato">
-                <div class="item-contato">
-                    <p><strong>Endereço:</strong> <em>Avenida Onze de Outubro, nº 123</em></p>
-                    <p><em>Centro, Cidade Qualquer/RJ CEP: 12345-678</em></p>
+                <div class="caixas-contato">
+                    <div class="item-contato">
+                        <p><strong>Endereço:</strong> <em>Avenida Onze de Outubro, nº 123</em></p>
+                        <p><em>Centro, Cidade Qualquer/RJ CEP: 12345-678</em></p>
+                    </div>
+
+                    <div class="item-contato">
+                        <p><strong>Telefone:</strong> <em>(11) 5555-5555</em></p>
+                        <p>
+                            <strong>E-mail:</strong>
+                            <a href="mailto:contato@alessios.pizza"
+                                style="color: orange;"><em>contato@alessios.pizza</em></a>
+                        </p>
+                    </div>
+
+                    <div class="item-contato">
+                        <p><strong>Horário de Funcionamento:</strong></p>
+                        <p><em>Segunda a Sábado: 11h00 às 23h00 - Domingo: 16h00 às 23h00</em></p>
+                    </div>
                 </div>
+            </address>
 
-                <div class="item-contato">
-                    <p><strong>Telefone:</strong> <em>(11) 5555-5555</em></p>
-                    <p>
-                        <strong>E-mail:</strong>
-                        <a href="mailto:contato@alessios.pizza"
-                            style="color: orange;"><em>contato@alessios.pizza</em></a>
-                    </p>
-                </div>
-
-                <div class="item-contato">
-                    <p><strong>Horário de Funcionamento:</strong></p>
-                    <p><em>Segunda a Sábado: 11h00 às 23h00 - Domingo: 16h00 às 23h00</em></p>
-                </div>
-            </div>
-
-            <button>Peça já!</button>
+            <a href="#sessao-cardapio"><button>Peça já!</button></a>
         </section>
     </main>
 
