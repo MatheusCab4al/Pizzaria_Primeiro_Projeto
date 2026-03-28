@@ -136,6 +136,13 @@ header ul li a {
     padding: 10px;
 }
 
+.contato h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
 .contato p {
     font-size: 1.2rem;
     padding: 10px;
